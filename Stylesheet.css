@@ -14,8 +14,22 @@ img {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 100px;
   background-color: #8b6262;
   color: #333;
+}
+
+#penis {
+  animation: rotation 2s infinite linear;
+  margin: 0 auto;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
